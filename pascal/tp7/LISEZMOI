@@ -1,0 +1,437 @@
+
+                       Bienvenue … Turbo Pascal 7.0
+                       ----------------------------
+
+Ce fichier LISEZMOI contient d'importantes informations de derniŠre minute
+concernant Turbo Pascal 7.0. Vous trouverez d'autres fichiers … consulter dans
+le r‚pertoire \TP\DOC. La liste et la description de tous les fichiers
+composant le produit est contenue dans le fichier LISTEFIC.DOC.
+
+
+
+                            TABLE DES MATIERES
+                            ------------------
+
+ 1. Comment obtenir de l'aide
+ 2. Configuration mat‚rielle minimum
+ 3. Installation
+ 4. Nouvelles fonctionnalit‚s
+ 5. Notes sur cette version
+    - documentation suppl‚mentaire
+    - Programmes de d‚mo et utilitaires
+    - Compatibilit‚ et problŠmes connus
+ 6. Remarques importantes pour les utilisateurs de Borland C++
+    et Paradox 4.0.
+ 7. Turbo Pascal et le Shell OS/2
+
+
+
+
+1. COMMENT OBTENIR DE L'AIDE
+----------------------------
+Si, aprŠs avoir lu ce fichier LISEZMOI ainsi que les manuels, vous d‚sirez
+contacter Borland pour toute remarque, suggestion ou question, vous pouvez :
+
+o t‚l‚phoner au service assistance
+
+o nous ‚crire … l'adresse suivante :
+
+       BORLAND FRANCE
+       Support technique Turbo Pascal
+       B.P. 106
+       43 avenue de l'Europe
+       78143 VELIZY-VILLACOUBLAY
+
+Dans les deux cas, ayez soin de fournir les ‚l‚ments suivants :
+
+o le nom et le num‚ro de version du produit,
+
+o votre num‚ro de licence individuelle (inscrit sur l'‚tiquette de chaque
+  disquette originale),
+
+o la marque, le modŠle et la configuration g‚n‚rale de votre ‚quipement
+  (ordinateur et p‚riph‚riques),
+
+o la r‚f‚rence et le num‚ro de version du systŠme d'exploitation
+  (Commande VER du DOS).
+
+o le contenu des fichiers CONFIG.SYS et AUTOEXEC.BAT.
+
+
+
+2. CONFIGURATION MATERIELLE MINIMUM
+-----------------------------------
+
+Turbo Pascal 7.0 n‚cessite MS-DOS 3.0 ou ult‚rieur.
+
+TURBO.EXE, l'EDI en mode r‚el, n‚cessite au moins 512k de m‚moire libre.
+
+TPX.EXE, l'EDI haute capacit‚, peut utiliser jusqu'… 16 Mo de m‚moire
+‚tendue, et n‚cessite la configuration systŠme minimum suivante :
+
+	Processeur       :	80286 ou sup‚rieur
+	M‚moire DOS      :	640k
+	M‚moire ‚tendue  :	1 Mo disponible
+
+Sur les machines … base de 80286, nous recommandons l'utilisation d'un
+gestionnaire de m‚moire tel que HIMEM.SYS avant d'utiliser TPX. Pour plus
+d'informations sur les gestionnaires de m‚moire, r‚f‚rez-vous aux manuels du
+DOS.
+
+(Veuillez noter que TPX n‚cessite les fichiers RTM.EXE et DPMI16BI.OVL soit
+dans le PATH, soit dans le r‚pertoire de TPX.EXE).
+
+Si vous utilisez TPX.EXE sous Windows, assurez-vous de cr‚er un fichier
+.PIF, comportant la valeur 0 (z‚ro) dans le champ
+'M‚moire XMS: ... Ko n‚cessaires', et au moins 2048 dans le champ
+'M‚moire XMS: ... Ko Maximum'.
+
+
+3. INSTALLATION
+---------------
+IMPORTANT : Turbo Pascal 7.0 ne doit pas ˆtre install‚ … la place d'une
+version ant‚rieure existante (supprimez celle-ci, ou utilisez un autre
+r‚pertoire).
+
+Utilisez le programme INSTALL pour installer Turbo Pascal. Tous les fichiers
+des disquettes originales sont archiv‚s et compact‚s ; INSTALL les d‚compacte,
+cr‚e pour vous les r‚pertoires o— les placer, ainsi que les fichiers de
+configuration des compilateurs en ligne de commande et des deux EDI.
+
+L'installation du produit complet n‚cessite approximativement 6 Mo d'espace
+disque. (Le produit install‚ n'occupe en fait que 4,5 Mo mais le processus de
+d‚compactage n‚cessite environ 1,5 Mo d'espace disque temporaire
+suppl‚mentaire). Cette taille peut varier suivant la taille de cluster de
+votre disque dur. Si vous utilisez un progiciel de compression de disque dur,
+tel que Stacker, plus d'espace sera n‚cessaire pour les fichiers temporaires.
+(jusqu'… 8 Mo suivant le progiciel utilis‚).
+
+Toutes les r‚f‚rences de r‚pertoires suivantes dans ce fichier LISEZMOI
+supposent que vous avez install‚ le produit avec INSTALL.
+
+Pour commencer l'installation, ins‚rez la disquette INSTALL (la premiŠre)
+dans le lecteur A: puis tapez : A:INSTALL.
+(ou B: puis B:INSTALL dans le cas du lecteur B:)
+
+
+Remarque sur l'installation Disquettes
+--------------------------------------
+L'installation sur disquettes d'INSTALL n'installera que le compilateur en
+ligne de commande, TPC.EXE, et la bibliothŠque TURBO.TPL.
+
+Si vous voulez lancer l'EDI TURBO.EXE sur un systŠme ‚quip‚ de disquettes,
+vous devrez d‚sarchiver manuellement TURBO.EXE de la fa‡on suivante :
+
+SystŠmes … lecteurs de plus de 360k
+-----------------------------------
+Ins‚rez la disquette INSTALLATION dans le lecteur B:. Ins‚rez une disquette
+vierge format‚e dans le lecteur A:, placez-vous sur A: (A: puis ENTREE)
+et tapez :
+
+	COPY B:UNZIP.EXE
+	UNZIP B:TPL
+
+Retirez la disquette INSTALLATION du lecteur B:, et ins‚rez la disquette
+originale de Turbo Pascal 7.0 contenant TURBO.ZIP … la place. Tapez ensuite :
+
+	UNZIP B:TURBO
+
+Retirez la disquette du lecteur B:. Turbo Pascal 7.0 est maintenant install‚
+sur votre systŠme.
+
+
+SystŠmes … lecteurs 360 ko
+--------------------------
+L'archive TFLOPPY.ZIP contient une version sp‚ciale de TURBO.EXE, qui peut
+ˆtre lanc‚e depuis une disquette 360ko. Vous aurez besoin de trois disquettes
+pour installer Turbo Pascal 7.0 sur disquette. Cr‚ez une disquette format‚e
+contenant le systŠme d'exploitation, et nommez-la :
+
+	Lecteur A: DISQUETTE SYSTEME (Code source, TURBO.TPL)
+
+Puis, cr‚ez une disquette vierge format‚e (non systŠme) nomm‚e :
+
+	Lecteur B: (TURBO.EXE)
+
+Finalement, cr‚ez une troisiŠme disquette vierge format‚e, non systŠme,
+comme disquette temporaire.
+
+Vous ˆtre fin prˆt pour l'installation. Placez la disquette INSTALLATION dans
+le lecteur B:, et la disquette SYSTEME dans le lecteur A:. Placez-vous sur le
+lecteur A: et tapez :
+
+	B:UNZIP B:TPL
+
+Retirez la disquette du lecteur A: et placez-y la disquette temporaire. Cette
+disquette contiendra temporairement UNZIP.EXE et TFLOPPY.ZIP.
+Tapez maintenant :
+
+Retirez la disquette INSTALLATION du lecteur B: et placez-y la disquette
+originale Turbo Pascal 7.0 contenant TFLOPPY.ZIP. Puis tapez :
+
+	COPY B:TFLOPPY.ZIP
+
+Retirez la disquette originale du lecteur B:, nommez une troisiŠme disquette
+vierge et format‚e (non systŠme), placez-la dans le lecteur B:.
+Placez la disquette 'B: (TURBO.EXE)' dans le lecteur B:, et tapez :
+
+	UNZIP TFLOPPY B:
+
+Retirez la disquette temporaire du lecteur A: et remplacez-la par celle
+intitul‚e 'A: DISQUETTE SYSTEME'. Turbo Pascal est install‚ sur votre systŠme.
+Placez-vous toujours sur le lecteur A: et tapez :
+
+	B:TURBO
+
+pour lancer Turbo Pascal 7.0. Il y a de la place sur la disquette A: pour
+stocker vos programmes .PAS. Cette version de TURBO.EXE ne peut sauvegarder
+les options de d‚marrage (Options/Environment/Startup).
+
+
+4. NOUVELLES FONCTIONNALITES
+----------------------------
+Turbo Pascal 7.0 offre de nombreuses nouvelles fonctionnalit‚s, dont :
+
+ o TPX.EXE, un nouvel EDI (Environnement de D‚veloppement Int‚gr‚) de haute
+   capacit‚, qui vous permet d'‚diter, de compiler, de parcourir les symboles
+   (browse), et d‚boguer de trŠs importantes applications. TPX peut utiliser
+   jusqu'… 16Mo de m‚moire.
+
+ o ObjectBrowser permet de parcourir les unit‚s et symboles pendant l'‚dition
+   de votre code source. Une r‚f‚rence crois‚e est disponible pour tout
+   identificateur de votre application.
+
+ o Mise en ‚vidence de la syntaxe - Assigne une couleur unique de texte aux
+   symboles, mots r‚serv‚s, identificateurs, chaŒnes, etc. Vous pouvez de plus
+   imprimer votre code source avec la mise en ‚vidence. (Gras, italiques,
+   etc.) depuis les EDIs.
+
+ o Le menu Tools des EDIs vous permet d'appeler des programmes externes comme
+   GREP ou Turbo Assembler. Vous pouvez bien s–r ajouter vos propres outils
+   dans ce menu.
+
+ o Symboles persistants - TPX sauvegarde les informations Symboles de vos
+   programmes entre chaque session, ainsi vous pouvez instantan‚ment parcourir
+   vos symboles et d‚boguer vos programmes mˆme aprŠs avoir quitt‚ l'EDI.
+
+ o Fichiers d'aide en ligne personnels utilisables dans l'EDI. Les index des
+   diff‚rents systŠmes d'aide sont automatiquement fusionn‚s, ainsi vous
+   pouvez effectuer des recherches par mot cl‚ ou incr‚mentales sur tous les
+   systŠmes d'aide simultan‚ment.
+
+ o Menus locaux - Le bouton droit de la souris (ou Alt-F10 au clavier)
+   fait apparaŒtre un menu local, sensible au contexte, dans tous les EDIs.
+
+ o Am‚liorations concernant l'optimisation, la bibliothŠque d'ex‚cution et
+   le d‚bogage.
+	o ReconnaŒt et utilise les processeurs 386 et sup‚rieurs, et utilise
+	  des instructions rapides 32 bits pour l'arithm‚tique sur les longint.
+	o Suppression des chargements de pointeurs redondants.
+	o E/S fichiers texte plus rapides.
+	o Routine texte Pos plus rapide.
+	o Ensembles (set) optimis‚s.
+	o Support de PChar - autorise les chaŒnes … z‚ro terminal (AZT).
+	o V‚rification de d‚bordement d'entier {$Q+/-} - Integer, Word, etc.
+	o Passage des num‚ros de ligne aux .OBJ - permet le pas-…-pas dans le
+	  code C ou assembleur dans le d‚bogueur int‚gr‚.
+
+ o Extension du langage
+	o ParamŠtres ouvert - permet des paramŠtres tableaux … taille variable
+	  plus s–rs, plus flexibles.
+	o Nouveau type OpenString - permet … une proc‚dure ou fonction
+	  d'accepter tout type de paramŠtre string, mˆme avec {$V+}.
+	o ParamŠtres constantes - paramŠtres non modifiables, plus efficaces.
+	o Sections publiques et priv‚es - permet de d‚clarer les sections
+	  publiques et priv‚es des objets dans n'importe quel ordre.
+	o Op‚rateur @ typ‚ {$T+/-} - renforce la v‚rification des types pour
+	  l'utilisation de l'op‚rateur @.
+	o Mot r‚serv‚ inherited - permet de r‚f‚rencer une m‚thode h‚rit‚e,
+	  sans connaŒtre le nom de l'ancˆtre.
+
+ o Nouvelles proc‚dures et fonctions standard
+	o Assigned - renvoie True si le pointeur n'est pas ‚gal … NIL
+	  (sp‚cialement utile pour les pointeurs de proc‚dure et fonctions).
+	o Include - ajoute un ‚l‚ment … un ensemble (set).
+	o exclude - supprime un ‚l‚ment d'un ensemble.
+	o Break et Continue - contr“le des boucles FOR, WHILE et REPEAT.
+	o Low et High - Renvoie la limite basse ou haute des paramŠtres
+	  ouverts (open array) ou de tout type scalaire.
+
+ o Am‚liorations de Turbo Vision
+	o Objets de validation de donn‚es.
+	o Nouvel objet outliner.
+	o Nouvelles m‚thodes pour ins‚rer/ex‚cuter les fenˆtres et boŒtes de
+	  dialogue.
+	o BoŒtes … cocher multi-‚tats.
+	o ‚l‚ments agglom‚r‚s d‚sactivables.
+
+ o Documentation complŠtement refondue, nouveaux programmes tutoriels.
+
+ o Aide en ligne couvrant toutes les nouvelles fonctionnalit‚s.
+
+Consultez la section "Nouveaut‚s" du Guide de l'utilisateur pour plus
+d'informations concernant les nouvelles fonctionnalit‚s de Turbo Pascal 7.0.
+
+
+
+5. NOTES SUR CETTE VERSION
+--------------------------
+
+DOCUMENTATION SUPPLEMENTAIRE
+
+  Des informations sur TEMC et divers utilitaires sont dans les fichiers
+  .DOC du r‚pertoire \TP\DOC.
+
+
+PROGRAMMES UTILITAIRES ET DEMONSTRATION
+
+ o DEMOS DOC - Le code source de tous les exemples de la documentation est
+   situ‚ dans le r‚pertoire \TP\EXAMPLES\DOCDEMOS.
+
+ o BGIDEMO d‚montre le support de VESA - consultez BGIDEMO.PAS dans le
+   r‚pertoire \TP\EXAMPLES\BGI pour des informations concernant la d‚tection
+   et l'utilisation du pilote VESA16.BGI. Il supporte tous les modes haute
+   r‚solution VESA 16 couleurs (800x600, 1024x768, 1280x1024).
+
+ o DEMOS DE COMPILATION - Plusieurs grands programmes de d‚monstration sont
+   constitu‚s de multiples unit‚s. Assurez-vous d'ˆtre dans le r‚pertoire de
+   la d‚mo avant de compiler. Par exemple, pour builder TVFM.PAS, la d‚mo
+   Gestionnaire de programmes de Turbo Vision, allez dans le r‚pertoire
+   \TP\EXAMPLES\TVFM avant de compiler, que ce soit avec l'EDI ou le
+   compilateur en ligne de commande.
+
+ o CODE SOURCE DES PROGRAMMES UTILITAIRES - L'impression des programmes avec
+   la syntaxe mise en ‚vidence est r‚alis‚e avec un filtre d'impression dont
+   le source est modifiable … volont‚. PRNFLTR est situ‚ dans le r‚pertoire
+   \TP\BIN.
+
+   --> Pour un exemple de filtre pour l'EDI, consultez le programme
+   GREP2MSG.PAS (Le filtre de messages de GREP dans le menu Tools) dans le
+   mˆme r‚pertoire.
+
+
+COMPATIBILITE ET PROBLEMES CONNUS
+
+ DOS
+ ---
+ o SOURCE DE TURBO VISION 1.0 - Le format de la table des m‚thodes virtuelles
+   (TMV) a ‚t‚ modifi‚ pour supporter les m‚thodes dynamiques (TMD). Vous
+   devez mettre … jour tout code bas‚ sur des d‚placements fixes dans la TMV.
+
+   Si, pour une raison quelconque, vous d‚sirez utiliser Turbo Pascal 7.0 pour
+   recompiler le code source de Turbo Vision fourni avec le code source de la
+   librairie d'ex‚cution de Turbo Pascal 6.0, modifiez les constantes
+   suivantes :
+
+		OBJECTS.PAS:
+		 TStream_Error = $0C;
+		 TStream_Flush = $10;
+		 TStream_Read  = $1C;
+		 TStream_Write = $28;
+		  ...
+		 TCollection_Error    = $0C;
+		 TCollection_SetLimit = $24;
+
+		VIEWS.PAS:
+		 TView_GetPalette = $30;
+
+ TPX (Mode prot‚g‚ DOS)
+ ----------------------
+ o UTILITAIRES SYSTEME ANCIENS - Certains utilitaires systŠme et programmes
+   d'application (gestionnaires de m‚moire, caches disque, disques virtuels,
+   etc.) ne respectent pas les standards de l'industrie en matiŠre
+   d'op‚rations DOS en mode prot‚g‚. Nous vous sugg‚rons de vous procurer les
+   versions les plus r‚centes de tels utilitaires.
+
+ o LANCEMENT DE WINDOWS DEPUIS UN SHELL DOS DE TPX - Lancer Windows en mode
+   386 ‚tendu depuis un shell DOS de TPX est risqu‚. Normalement, Windows
+   refuse de se lancer en mode prot‚g‚ dans de telles conditions, mais dans
+   certaines situations, cela peut r‚sulter en un blocage du systŠme. Pour
+   pallier ceci, lancez Windows en mode Standard.
+
+ o SERVEUR DPMI DE 386^MAX - Des problŠme connus sont imput‚s aux versions
+   pr‚-6.02 du serveur DPMI 386^MAX. Nous vous recommandons d'utiliser la
+   version la plus r‚cente (ou le serveur DPMI de Borland, inclus dans Turbo
+   Pascal).
+
+ o VDISK DE COMPAQ - Si vous utilisez un Compaq 386 avec un DOS Compaq 3.31,
+   vous ne devez pas utiliser le programme VDISK de Compaq. Cette version de
+   VDISK n'est pas compatible avec les applications en mode prot‚g‚ telles que
+   TPX.
+
+ o OS/2 ET LE SHELL DOS DE TPX - Si vous lancez TPX depuis OS/2, empilez un
+   shell DOS, puis lancez une autre application DOS en mode prot‚g‚, les deux
+   applications DOIVENT utiliser le chargeur mode prot‚g‚ de Borland.
+
+   Des problŠmes avec OS/2 sont connus, causant le blocage de la session DOS
+   lorsque la seconde application se termine, si elle utilise un autre
+   chargeur mode prot‚g‚. Ceci sera r‚solu dans une future version du support
+   mode prot‚g‚ DOS d'OS/2.
+
+   Veuillez noter qu'il est risqu‚ de lancer Paradox 4.0 depuis un shell DOS
+   de TPX.
+
+
+6. INFORMATIONS POUR LES UTILISATEURS DE BORLAND C++ ET PARADOX 4.0
+-------------------------------------------------------------------
+Les fichiers DPMILOAD.EXE et DPMI16BI.OVL fournis avec Turbo Pascal 7.0
+remplacent ceux de Paradox 4.0 et Borland C++ 3.0 et sup‚rieures. Supprimez ou
+renommez les versions ant‚rieures, et ajoutez \TP\BIN … votre PATH, de fa‡on
+que Paradox et Borland C++ utilisent la nouvelle version.
+
+Si vous voulez pouvoir lancer BC++ ou Paradox depuis TPX.EXE, vous devrez
+utiliser l'option EXTLEAVE de la variable d'environnement RTM, afin de leur
+laisser suffisamment de m‚moire. Par exemple, vous pouvez r‚server 2 Mo de
+m‚moire pour les programmes de la fa‡on suivante :
+
+	SET RTM=EXTLEAVE 2048
+
+Consultez la documentation pour plus d'informations sur l'utilisation de la
+variable d'environnement RTM.
+
+Si vous projetez de faire des shells au DOS depuis Paradox ou BC++ pour lancer
+TPX.EXE, limitez la place m‚moire utilis‚e par ces programmes. Pour Paradox,
+utilisez l'option /extk de la ligne de commande ; pour BC++, utilisez l'option
+/x. Pour de plus amples renseignements sur les options de la ligne de
+commande, r‚f‚rez-vous … la documentation de ces produits.
+
+Voici une liste des v‚rifications … faire en cas de problŠme :
+
+ 1. Il existe une version de DPMILOAD.EXE ou DPMI16BI.OVL ant‚rieure … celle
+    de Turbo Pascal 7.0, dans le PATH ou le r‚pertoire de Borland C++ ou de
+    Paradox ? Dans ce cas, remplacez-la par celle fournie avec Turbo Pascal
+    7.0, ou supprimez-la et modifiez votre PATH en cons‚quence.
+
+ 2. Avez-vous initialis‚ la variable RTM ?    par exemple :
+
+		SET RTM=EXTLEAVE 2048
+
+ 3. Si vous avez au pr‚alable lanc‚ Paradox ou BC++, avez-vous utilis‚ la
+    ligne de commande ad‚quate ?
+
+
+7. TURBO PASCAL 7.0 ET LE SHELL DOS D'OS/2
+------------------------------------------
+Voici les ‚tapes pour cr‚er une ic“ne pour TPX.EXE sous shell d'OS/2 2.0 :
+
+  1. Depuis le bureau d'OS/2, double-cliquez sur le dossier ModŠles pour
+     l'ouvrir, tirez l'ic“ne Programme et lƒchez-le soit sur le bureau, soit
+     dans un autre dossier.
+
+  2. Lorsque la boŒte de dialogue des paramŠtres du programme apparaŒt, tapez
+     les informations suivantes :
+
+        Chemin/Nom de fichier : *
+                   ParamŠtres : /C C:\TP\BIN\TPX.EXE
+        R‚pertoire de travail : C:\TP\BIN
+
+     Substituez les chemins et/ou unit‚s au besoin.
+
+  3. Cliquez sur l'onglet Session et s‚lectionnez Session DOS plein ‚cran ou
+     en fenˆtre, … votre convenance.
+
+  4. Cliquez sur l'onglet G‚n‚ral, et tapez Turbo Pascal 7.0 comme titre du
+     programme.
+
+  5. Double-cliquez sur la case de fermeture.
+

@@ -1,0 +1,293 @@
+FICHIERS PRESENTS SUR LES DISQUETTES DE DISTRIBUTION
+----------------------------------------------------
+
+Disque 1
+--------
+INSTALL   EXE - Programme d'installation
+LISEZMOI  COM - Programme pour visualiser le fichier LISEZMOI
+BGI       ZIP - Fichier archive contenant :
+   GRAPH     TPU - Unit‚ graphique BGI - Borland Graphics Interface
+
+BGIBIN    ZIP - Fichier archive contenant :
+   ATT       BGI - Pilote graphique pour carte graphique AT&T 6300
+   BOLD      CHR - Fonte pour le jeu de caractŠres Simplex
+   CGA       BGI - Pilote graphique CGA et MCGA
+   EGAVGA    BGI - Pilote graphique EGA et VGA
+   EURO      CHR - Fonte pour le jeu de caractŠres Simplex
+   GOTH      CHR - Fonte Gothic
+   HERC      BGI - Pilote graphique Hercules monochrome
+   IBM8514   BGI - Pilote graphique pour les cartes IBM 8514
+   LCOM      CHR - Fonte pour le jeu de caractŠres Simplex
+   LITT      CHR - Fonte du jeu de caractŠre small
+   PC3270    BGI - Pilote graphique pour PC3270
+   SANS      CHR - Fonte de caractŠres sans serif
+   SCRI      CHR - Fonte pour le jeu de caractŠres Simplex
+   SIMP      CHR - Fonte pour le jeu de caractŠres Simplex
+   TRIP      CHR - Fonte du jeu de caractŠre triplex
+   TSCR      CHR - Fonte pour le jeu de caractŠres Simplex
+   VESA16    BGI - Pilote graphique BGI pour VESA 16
+
+DOCDEMO   ZIP - Fichier archive contenant :
+   COLLECT1  PAS - D‚mo de la documentation
+   COLLECT2  PAS - D‚mo de la documentation
+   COLLECT3  PAS - D‚mo de la documentation
+   COLLECT4  PAS - D‚mo de la documentation
+   COUNT     PAS - D‚mo de la documentation
+   DRAGS     PAS - D‚mo de la documentation
+   ENDCMD    PAS - D‚mo de la documentation
+   HINTER    PAS - D‚mo de la documentation
+   IMPORT    PAS IMPORT - D‚mo de la documentation
+   INSWIN    PAS INSWIN - D‚mo de la documentation
+   ITEMS     DAT ITEMS - D‚mo de la documentation
+   ITEMS     TXT ITEMS - D‚mo de la documentation
+   MAKEDAT   BAT - D‚mo de la documentation
+   MINIMAL   PAS MINIMAL - D‚mo de la documentation
+   NEWBACK   PAS NEWBACK - D‚mo de la documentation
+   NORECVER  PAS - D‚mo de la documentation
+   ORDERS    DAT ORDERS - D‚mo de la documentation
+   ORDERS    PAS ORDERS - D‚mo de la documentation
+   ORDERS    TXT ORDERS - D‚mo de la documentation
+   OUTDIR    PAS OUTDIR - D‚mo de la documentation
+   PICKLIST  PAS - D‚mo de la documentation
+   RECOVER   PAS - D‚mo de la documentation
+   RESOURC1  PAS - D‚mo de la documentation
+   RESOURC2  PAS - D‚mo de la documentation
+   STOCKS    PAS STOCKS - D‚mo de la documentation
+   STREAM1   PAS STREAM1 - D‚mo de la documentation
+   STREAM2   PAS STREAM2 - D‚mo de la documentation
+   STRMERR   PAS STRMERR - D‚mo de la documentation
+   SUPPLIER  DAT - D‚mo de la documentation
+   SUPPLIER  PAS - D‚mo de la documentation
+   SUPPLIER  TXT - D‚mo de la documentation
+   TERMTEST  PAS - D‚mo de la documentation
+   TUTCONST  PAS - D‚mo de la documentation
+   TUTOR     PAS TUTOR - D‚mo de la documentation
+   TUTOR01   PAS TUTOR01 - D‚mo de la documentation
+   TUTOR02A  PAS - D‚mo de la documentation
+   TUTOR02B  PAS - D‚mo de la documentation
+   TUTOR02C  PAS - D‚mo de la documentation
+   TUTOR03A  PAS - D‚mo de la documentation
+   TUTOR03B  PAS - D‚mo de la documentation
+   TUTOR03C  PAS - D‚mo de la documentation
+   TUTOR04A  PAS - D‚mo de la documentation
+   TUTOR04B  PAS - D‚mo de la documentation
+   TUTOR04C  PAS - D‚mo de la documentation
+   TUTOR05   PAS TUTOR05 - D‚mo de la documentation
+   TUTOR06A  PAS - D‚mo de la documentation
+   TUTOR06B  PAS - D‚mo de la documentation
+   TUTOR07   PAS TUTOR07 - D‚mo de la documentation
+   TUTOR08A  PAS - D‚mo de la documentation
+   TUTOR08B  PAS - D‚mo de la documentation
+   TUTOR08C  PAS - D‚mo de la documentation
+   TUTOR09   PAS TUTOR09 - D‚mo de la documentation
+   TUTOR10   PAS TUTOR10 - D‚mo de la documentation
+   TUTOR11A  PAS - D‚mo de la documentation
+   TUTOR11B  PAS - D‚mo de la documentation
+   TUTOR11C  PAS - D‚mo de la documentation
+   TUTOR12   PAS TUTOR12 - D‚mo de la documentation
+   TUTORIAL  TVR - D‚mo de la documentation
+   TUTRES    PAS TUTRES - D‚mo de la documentation
+   TUTTYPES  PAS - D‚mo de la documentation
+   TWOSTAT   PAS - D‚mo de la documentation
+   WORKERS   PAS - D‚mo de la documentation
+   WORKLIST  PAS - D‚mo de la documentation
+
+HELP      CA2 - Section du fichier HELP.ZIP
+LISTEFIC  DOC - Le fichier que vous visualisez !
+TPC       ZIP - Fichier archive contenant :
+   TPC       EXE - Compilateur en ligne de commande
+
+TPL       ZIP - Fichier archive contenant :
+   TURBO     TPL - Unit‚s d'ex‚cution
+
+TVFM      ZIP - Fichier archive contenant :
+   ASSOC     PAS - Fichier d‚mo TVFM
+   COLORS    PAS - Fichier d‚mo TVFM
+   CYAN      PAL - Fichier d‚mo TVFM
+   DEFAULT   PAL - Fichier d‚mo TVFM
+   DIRVIEW   PAS - Fichier d‚mo TVFM
+   DRAGDROP  PAS - Fichier d‚mo TVFM
+   EDITPAL   PAS - Fichier d‚mo TVFM
+   EQU       PAS - Fichier d‚mo TVFM
+   FILECOPY  PAS - Fichier d‚mo TVFM
+   FILEFIND  PAS - Fichier d‚mo TVFM
+   FILEVIEW  PAS - Fichier d‚mo TVFM
+   GAUGES    PAS - Fichier d‚mo TVFM
+   GLOBALS   PAS - Fichier d‚mo TVFM
+   INFOVIEW  PAS - Fichier d‚mo TVFM
+   MAKERES   PAS - Fichier d‚mo TVFM
+   MAKETVFM  BAT - Fichier d‚mo TVFM
+   ROSE      PAL - Fichier d‚mo TVFM
+   TOOLS     PAS - Fichier d‚mo TVFM
+   TRASH     PAS - Fichier d‚mo TVFM
+   TREEWIN   PAS - Fichier d‚mo TVFM
+   TVFM      PAS - Fichier d‚mo TVFM
+   TVFM      TVR - Fichier d‚mo TVFM
+   VIEWHEX   PAS - Fichier d‚mo TVFM
+   VIEWTEXT  PAS - Fichier d‚mo TVFM
+
+UNITS     ZIP - Fichier archive contenant :
+   APP       TPU - Unit‚ Application
+   COLORSEL  TPU - Unit‚ d'installation de color
+   DIALOGS   TPU - Unit‚ Dialogs
+   DRIVERS   TPU - Unit‚ Drivers
+   EDITORS   TPU - Unit‚ Editors
+   HISTLIST  TPU - Unit‚ History list
+   MEMORY    TPU - Unit‚ de gestion m‚moire
+   MENUS     TPU - Unit‚ Menus
+   MSGBOX    TPU - Unit‚ Messagebox
+   OBJECTS   TPU - Unit‚ Objects
+   OUTLINE   TPU - Unit‚ Outline
+   STDDLG    TPU - Unit‚ Standard dialogs
+   STRINGS   TPU - Unit‚ support de PChar
+   TEXTVIEW  TPU - Unit‚ fenˆtre simple texte
+   VALIDATE  TPU - Unit‚ Validate objects
+   VIEWS     TPU - Unit‚ Views
+   WINDOS    TPU - Unit‚ d'E/S orient‚e PChar
+
+UNZIP     EXE - Programme de d‚sarchivage des fichiers .ZIP
+UTILS     ZIP - Fichier archive contenant :
+   BINOBJ    EXE - Convertit un fichier binaire en fichier .OBJ
+   BRIEF     TEM - Fichier exemple de Macros Editeur ‚mulant un clavier
+                   suppl‚mentaire
+   DEFAULTS  TEM - Fichier exemple de Macros Editeur ‚mulant un clavier
+                   suppl‚mentaire
+   DOSEDIT   TEM - Fichier exemple de Macros Editeur ‚mulant un clavier
+                   suppl‚mentaire
+   EPSILON   TEM - Fichier exemple de Macros Editeur ‚mulant un clavier
+                   suppl‚mentaire
+   GREP      COM - Programme Borland GREP
+   GREP2MSG  EXE - Filtre de GREP pour l'EDI
+   GREP2MSG  PAS - Code source du filtre GREP
+   MAKE      EXE - Programme de gestion de projets, MAKE.
+   PRNFLTR   EXE - Programme filtre d'impression
+   PRNFLTR   PAS - Code source du programme filtre d'impression
+   RTMRES    EXE - Charge RTM en r‚sident
+   TEMC      EXE - Compilateur de macros Turbo Editor
+   THELP     COM - TSR pour visualiser les fichiers .TPH
+   TPUMOVER  EXE - Utilitaire de d‚placement d'unit‚s
+
+LISEZMOI      - Fichier d'informations sur le produit
+
+Disque 2
+--------
+HELP      CA1 - Fichier archive contenant :
+   TURBO     TPH - Fichier d'aide en ligne
+   TVISION   TPH - Fichier d'aide en ligne
+
+
+Disque 3
+--------
+BREAKOUT  ZIP - Fichier archive contenant :
+   BOUNDS    PAS - Code source du jeu Breakout
+   BREAKOUT  PAS - Code source du jeu Breakout
+   BRICKS    PAS - Code source du jeu Breakout
+   COUNT     PAS - Code source du jeu Breakout
+   SCREEN    PAS - Code source du jeu Breakout
+   WALLS     PAS - Code source du jeu Breakout
+
+DEMOS     ZIP - Fichier archive contenant :
+   CRTDEMO   PAS - D‚mo montrant l'utilisation de l'unit‚ CRT
+   DIRDEMO   PAS - D‚mo liste r‚pertoire
+   EXECDEMO  PAS - D‚mo montrant comment faire un EXEC d'autres programmes
+   FIB8087   PAS - D‚mo montrant l'utilisation du 8087
+   LISTER    PAS - D‚mo d'impression de code source
+   OVRDEMO   PAS - D‚mo Overlay
+   OVRDEMO1  PAS - D‚mo Overlay
+   OVRDEMO2  PAS - D‚mo Overlay
+   PROCVAR   PAS - D‚mo type variables Procedure
+   QSORT     PAS - D‚mo de tri rapide
+   TEST286   PAS - Montre comment tester la pr‚sence d'un 286 (ou sup‚rieur)
+
+DPMISYS   ZIP - Fichier archive contenant :
+   DPMI16BI  OVL - Serveur DPMI
+   DPMIINST  EXE - Programme de configuration pour le DPMI Borland C++
+   DPMILOAD  EXE - DPMILOAD compatible avec RTM
+   RTM       EXE - Gestionnaire DPMI
+
+SOURCE    ZIP - Fichier archive contenant :
+   APP       PAS - Source unit‚ Application
+   COLORSEL  PAS - Source de l'unit‚ d'installation de color
+   EDITORS   PAS - Source unit‚ Editors
+   MSGBOX    PAS - Source unit‚ Messagebox
+   OUTLINE   PAS - Source de l'unit‚ Outline
+   STDDLG    PAS - Source de l'unit‚ Standard dialogs
+   STRINGS   PAS - Fichier support de PChar
+   VALIDATE  PAS - Source Validate objects
+   WINDOS    PAS - Routines d'E/S orient‚es PChar
+
+TPX       ZIP - Fichier archive contenant :
+   TPX       EXE - EDI haute capacit‚
+   TPX       ICO - Ic“ne pour TPW.EXE
+   TPX       PIF - Fichier PIF pour lancer TPX sous Windows
+   TPX        TP - Fichier de configuration de TPX.EXE
+
+TURBO     ZIP - Fichier archive contenant :
+   TURBO     EXE - Environnement de d‚veloppement Int‚gr‚ Turbo Pascal
+   TURBO     ICO - Ic“ne Turbo Pascal
+   TURBO      TP - Fichier de configuration de TURBO.EXE
+
+TURBO3    ZIP - Fichier archive contenant :
+   GRAPH3    TPU - Unit‚ de compatibilit‚ Graphics Turbo Pascal 3.0
+   TURBO3    TPU - Unit‚ de compatibilit‚ Turbo Pascal 3.0
+
+TVDEBUG   ZIP - Fichier archive contenant :
+   CMDNAMER  PAS - Exemple de d‚bogage Turbo Vision
+   KEYNAMER  PAS - Exemple de d‚bogage Turbo Vision
+   SHOWEVNT  PAS - Exemple de d‚bogage Turbo Vision
+   TVDEBUG   PAS - Exemple de d‚bogage Turbo Vision
+
+TVDEMOS   ZIP - Fichier archive contenant :
+   ASCIITAB  PAS - Fichier d‚mo Turbo Vision
+   CALC      PAS - Fichier d‚mo Turbo Vision
+   CALENDAR  PAS - Fichier d‚mo Turbo Vision
+   DEMOCMDS  PAS - Fichier d‚mo Turbo Vision
+   DEMOHELP  HLP - Fichier d‚mo Turbo Vision
+   DEMOHELP  PAS - Fichier d‚mo Turbo Vision
+   DEMOHELP  TXT - Fichier d‚mo Turbo Vision
+   DEMOSTRS  PAS - Fichier d‚mo Turbo Vision
+   GADGETS   PAS - Fichier d‚mo Turbo Vision
+   GENRDEMO  PAS - Fichier d‚mo Turbo Vision
+   HELPFILE  PAS - Fichier d‚mo Turbo Vision
+   MKRDEMO   BAT - Fichier d‚mo Turbo Vision
+   MOUSEDLG  PAS - Fichier d‚mo Turbo Vision
+   PUZZLE    PAS - Fichier d‚mo Turbo Vision
+   TVDEMO    PAS - Fichier d‚mo Turbo Vision
+   TVEDIT    PAS - Fichier d‚mo Turbo Vision
+   TVHC      PAS - Fichier d‚mo Turbo Vision
+   TVRDEMO   PAS - Fichier d‚mo Turbo Vision
+
+
+Disque 4
+--------
+BGIDEMOS  ZIP - Fichier archive contenant :
+   ARTY      PAS - D‚mo BGI
+   BGIDEMO   PAS - D‚mo BGI
+   BGIDRIV   PAS - D‚mo BGI
+   BGIFONT   PAS - D‚mo BGI
+   BGILINK   MAK - D‚mo BGI
+   BGILINK   PAS - D‚mo BGI
+
+INTRFACE  ZIP - Fichier archive contenant :
+   CRT       INT - Section Interface de cette unit‚
+   DIALOGS   INT - Section Interface de cette unit‚
+   DOS       INT - Section Interface de cette unit‚
+   DRIVERS   INT - Section Interface de cette unit‚
+   GRAPH     INT - Section Interface de cette unit‚
+   HISTLIST  INT - Section Interface de cette unit‚
+   MEMORY    INT - Section Interface de cette unit‚
+   MENUS     INT - Section Interface de cette unit‚
+   OBJECTS   INT - Section Interface de cette unit‚
+   OVERLAY   INT - Section Interface de cette unit‚
+   PRINTER   INT - Section Interface de cette unit‚
+   SYSTEM    INT - Section Interface de cette unit‚
+   TEXTVIEW  INT - Section Interface de cette unit‚
+   VIEWS     INT - Section Interface de cette unit‚
+
+ONLINE    ZIP - Fichier archive contenant :
+   TEMC      DOC - Documentation magn‚tique pour l'utilitaire TEMC
+   UTILS     DOC - Documentation magn‚tique pour les utilitaires
+
+TFLOPPY   ZIP - Fichier archive contenant :
+   TURBO     EXE - EDI Turbo Pascal pour disquettes souples
+
