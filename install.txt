@@ -6,6 +6,8 @@ windowresolution=1600x1200
 output=overlay
 
 3. От pascal\tp7\UNITS се копира GRAPH.TPU в PWPoker\pascal\tp7\BIN
-4. Влиза се в PWPoker\pascal\tp7\BIN и компилатора се пуска с turbo.exe
-5. Отваря се файла \poker\rb100.pas
-6. пуска се през менюто Run (директното пускане гърми)
+4. Пуска се dosbox и се монтира директорията:
+mount c d:\wency\pwpoker
+5. Влиза се в PWPoker\pascal\tp7\BIN и компилатора се пуска с turbo.exe
+6. Отваря се файла \poker\rb100.pas
+7. пуска се през менюто Run (директното пускане гърми)
