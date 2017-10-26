@@ -1,0 +1,11 @@
+Инстралация и пускане:
+1. Инсталира се DOSBox от http://www.dosbox.com/download.php?main=1
+2. настройва се прозореца му да е с произволна резолюция в C:\Users\store\AppData\Local\DOSBox\dosbox-0.74.conf
+например:
+windowresolution=1600x1200
+output=overlay
+
+3. От pascal\tp7\UNITS се копира GRAPH.TPU в PWPoker\pascal\tp7\BIN
+4. Влиза се в PWPoker\pascal\tp7\BIN и компилатора се пуска с turbo.exe
+5. Отваря се файла \poker\rb100.pas
+6. пуска се през менюто Run (директното пускане гърми)
